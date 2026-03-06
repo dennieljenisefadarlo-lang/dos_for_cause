@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+  
+  .contact {
+    min-height: 100vh;
+    background: url(/Brwn);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .contact-wrapper {
+    display: grid ;
+    grid-gap: 10px;
+  }
+  
+  .contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #333;
+  }
+  
+  .contact-info{
+    color: white;
+  }
