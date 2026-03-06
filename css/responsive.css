@@ -1,0 +1,21 @@
+/* Minimal mobile responsive styles */
+@media only screen and (max-width: 600px) {
+  nav, .w3-bar {
+    flex-direction: column !important;
+  }
+
+  nav a, .w3-bar-item {
+    font-size: 1.2rem !important;
+    padding: 12px !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .w3-content {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
